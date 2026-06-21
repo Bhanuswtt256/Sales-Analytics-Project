@@ -18,4 +18,4 @@ Analyze sales data using SQL.
 - Aggregate Functions
 
 ## Author
-Mayank Saraswat
+bhanu sharma
