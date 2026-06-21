@@ -9,3 +9,18 @@ FROM sales_data
 GROUP BY product_name
 ORDER BY revenue DESC
 LIMIT 5;
+
+-- Total Profit
+SELECT SUM(Profit) AS total_profit
+FROM sales_data;
+
+-- Product Wise Sales
+SELECT Product,
+       SUM(Sales) AS revenue
+FROM sales_data
+GROUP BY Product
+ORDER BY revenue DESC;
+
+-- Average Sales
+SELECT AVG(Sales) AS avg_sales
+FROM sales_data;
