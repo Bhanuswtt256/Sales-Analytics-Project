@@ -1,21 +1,27 @@
 # Sales Analytics Project
 
-## Objective
-Analyze sales data using SQL.
+## Project Overview
+This project analyzes sales performance using SQL.
 
-## Tools Used
-- SQL
-- GitHub
+## Dataset
+The dataset contains sales transactions including product, sales amount, and profit.
 
-## SQL Analysis
-- Total Sales
-- Top Products
-- Revenue Analysis
+## Analysis Performed
+- Total Sales Analysis
+- Product Performance Analysis
+- Revenue Trends
+- Profit Analysis
 
-## Skills Demonstrated
+## SQL Skills Used
+- SELECT
 - GROUP BY
 - ORDER BY
+- SUM()
 - Aggregate Functions
+
+## Files
+- sales_data.csv
+- analysis_queries.sql
 
 ## Author
 bhanu sharma
